@@ -1,0 +1,36 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 2px 0px 17px -4px rgba(0,0,0,0.76);
+    -moz-box-shadow: 2px 0px 17px -4px rgba(0,0,0,0.76);
+    box-shadow: 2px 0px 17px -4px rgba(0,0,0,0.76);
+    padding: .5%;
+}
+
+.iconHeader{
+  width: 10%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.user{
+  text-align: right;
+}
+
+.searcher{
+  outline: none;
+  width: 100%;
+  height: 35px;
+  padding: 4%;
+  border-radius: 25px 25px;
+  border: 1px solid lightgray;
+}
