@@ -1,10 +1,22 @@
+:root {
+  --fuenteHeading: 'Raleway', sans-serif;
+  --fuenteParrafos: 'Raleway', sans-serif;
+
+  --primario: #0F1852;
+  --azul: #2A4BA6;
+  --azulito: #0B2694;
+  --gris: #707070;
+  --amarillo: #D49400;
+  --blanco: #ffffff;
+  --negro: #000000;
+  --verde: #30BF3E;
+}
+
 body{
     padding: 0;
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
 
 .header{
     display: flex;
@@ -13,7 +25,6 @@ body{
     -moz-box-shadow: 2px 0px 17px -4px rgba(0,0,0,0.76);
     box-shadow: 2px 0px 17px -4px rgba(0,0,0,0.76);
     padding: .5%;
-    padding: 0;
     margin: 0;
     justify-content: space-evenly;
     height: 17%;
@@ -35,13 +46,24 @@ body{
 .searcher{
   outline: none;
   width: 100%;
-  height: 35px;
+  height: 38px;
   padding: 4%;
   border-radius: 25px 0 0 25px;
   border: 1px solid lightgray;
+  font-size: 100%;
 }
 
 .buscador{
   display: flex;
-align-items: center;
+  align-items: center;
+  width: 30%;
+}
+
+.iconSearch{
+  padding: 2.3%;
+  border: 1px solid lightgray;
+  border-radius: 0 25px 25px 0;
+  width: 8%;
+  text-align: center;
+  height: 19px;
 }
