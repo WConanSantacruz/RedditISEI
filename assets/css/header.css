@@ -1,8 +1,10 @@
-.body{
-    padding: 0px;
-    margin: 0px;
+body{
+    padding: 0;
+    margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
 
 .header{
     display: flex;
@@ -11,6 +13,9 @@
     -moz-box-shadow: 2px 0px 17px -4px rgba(0,0,0,0.76);
     box-shadow: 2px 0px 17px -4px rgba(0,0,0,0.76);
     padding: .5%;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
 }
 
 .iconHeader{
@@ -31,6 +36,11 @@
   width: 100%;
   height: 35px;
   padding: 4%;
-  border-radius: 25px 25px;
+  border-radius: 25px 0 0 25px;
   border: 1px solid lightgray;
+}
+
+.buscador{
+  display: flex;
+align-items: center;
 }
