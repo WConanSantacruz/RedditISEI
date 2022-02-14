@@ -27,7 +27,11 @@ body{
     padding: .5%;
     margin: 0;
     justify-content: space-evenly;
-    height: 17%;
+    height: auto;
+}
+
+.title{
+  color: var(--primario)
 }
 
 .iconHeader{
@@ -37,10 +41,23 @@ body{
 .logo{
     display: flex;
     align-items: center;
+    font-size: 115%;
+    font-weight: bold;
+    width: 25%;
 }
 
 .user{
   text-align: right;
+  display: flex;
+  width: 6%;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+  border: 1px solid lightgray;
+  padding: .75%;
+  border-radius: 25px;
+  font-size: 100%;
+  cursor: pointer;
 }
 
 .searcher{
@@ -51,6 +68,7 @@ body{
   border-radius: 25px 0 0 25px;
   border: 1px solid lightgray;
   font-size: 100%;
+  border-right: none;
 }
 
 .buscador{
@@ -65,5 +83,10 @@ body{
   border-radius: 0 25px 25px 0;
   width: 8%;
   text-align: center;
-  height: 19px;
+  height: 18px;
+  border-left: none;
+}
+
+.loginText{
+  font-size: 105%;
 }
