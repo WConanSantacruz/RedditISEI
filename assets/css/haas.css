@@ -1,0 +1,10 @@
+.dropdown-toggle::after {
+  margin-left: 10px !important;
+  content: "";
+  border-top: 0.7em solid !important;
+  border-right: 0.7em solid transparent !important;
+  border-left: 0.7em solid transparent !important;
+}
+.imach{
+    margin-left:10px
+}
