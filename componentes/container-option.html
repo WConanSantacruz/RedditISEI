@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/container-option.css">
+</head>
+    <body>
+        
+        <div class="option">
+            <div class="option-2">
+                <p class="edicion">
+                    <label class="edit" for="author">
+                        Nombre de usuario
+                    </label>
+                    <input type="text" name="usuario" id="edit" value="Conan54" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Conan54';}">
+                </p>
+                <p class="edicion">
+                    <label class="edit" for="author">
+                        Contraseña
+                    </label>
+                    <input type="password" name="contraseña" id="edit" value="********" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '********';}">
+                </p>
+            </div>
+            <div class="option-3">
+                <p>
+                    <h2>Visibilidad de contenido</h2>
+                    <label for="text">
+                        Cualquiera puede ver el contenido que publicas
+                    </label>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </p>
+                <p>
+                    <h2>Activar visualidad</h2>
+                    <label for="text">
+                        Cualquiera puede ver cuando estas conectado
+                    </label>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </p>
+                
+                <input class="guardar" name="submit" type="submit" id="submit" value="Guardar">
+            </div>
+        </div>
+
+        
+
+
+
+
+    </body>
+</html>
