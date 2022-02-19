@@ -92,12 +92,14 @@ input{
   .slider.round:before {
     border-radius: 50%;
   }
-  .guardar{
-      float: right;
-      border-radius: inherit;
-      border-radius: 10px;
-      margin-right: 5%;
-      margin-top: -1%;
-      min-block-size: 45px;
-      inline-size: 150px;
-  }
+  .guardar {
+    color: aqua;
+    border-color: aqua;
+    float: right;
+    border-radius: inherit;
+    border-radius: 10px;
+    margin-right: 5%;
+    margin-top: -1%;
+    min-block-size: 45px;
+    inline-size: 150px;
+}
