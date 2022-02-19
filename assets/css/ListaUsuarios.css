@@ -1,0 +1,27 @@
+body{
+    background-color:lightgray;
+}
+.Co{
+margin-top: 10px;
+
+}
+.al{
+    background-color:white;
+    margin-top: 12px !important;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px #999;
+
+}
+img.izquierda {
+    float: left;
+}
+.lo{
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    height: 50px;
+    padding-left:1.5rem;;
+}
+.Pu2{
+    padding-left: 0.2rem;
+    }
