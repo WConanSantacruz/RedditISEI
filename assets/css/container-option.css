@@ -1,16 +1,34 @@
 .option{
-    background-color: blueviolet;
+    background-color: #ffffff;
     block-size: 100%;
-    align-content: space-between;
+    padding: 2%;
 }
 
+.option-3 {
+    padding-bottom: 5%;
+}
+
+input#edit {
+    inline-size: -webkit-fill-available;
+    block-size: 22px;
+    color: #d1d1d1;
+}
+.edicion{
+    margin-bottom: 2em;
+}
 h2{
     font-size: 15px;
 }
 label{
     margin: 0;
 }
-
+.edit{
+    float: left;
+    margin-bottom: auto;
+}
+input{
+    border-radius: 25px;
+}
 .switch {
     position: relative;
     display: inline-block;
@@ -76,5 +94,10 @@ label{
   }
   .guardar{
       float: right;
-      margin-right: 8%;
+      border-radius: inherit;
+      border-radius: 10px;
+      margin-right: 5%;
+      margin-top: -1%;
+      min-block-size: 45px;
+      inline-size: 150px;
   }
