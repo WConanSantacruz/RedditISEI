@@ -1,21 +1,38 @@
 .container-link{
-    background-color: #a0a0a0;
+    background-color: #ffffff;
     block-size: 100%;
     align-items: center;
+    padding: 2%;
 }
 .container-text{
-    background-color: blanchedalmond;
     justify-items: inherit;
-    block-size: 150px;
     align-items: center;
-
-
+    -moz-box-align: center;
+    text-align: center;
+    padding-top: 100px;
+    padding: inherit;
+}
+.link{
+    margin-bottom: 2em;
+}
+.link-f{
+    display: flex;
+    align-content: flex-end;
+    block-size: auto;
 }
 .container-buttom{
+    
+    justify-content: space-between;
     display: flex;
+    align-self: end;
+    
 }
-.container-option{
-    background-color: blue;
+.cointainer-opt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    align-items: flex-end;
 }
 input{
     border-color: #d1d1d1;
@@ -28,10 +45,10 @@ input{
 }
 .action{
     margin-top: 10%;
+    block-size: auto;
 }
 .Cancelar{
     border-color: aqua;
-    margin-left: 0%;
     color: aqua;
     margin-bottom: 10px;
 }
@@ -40,11 +57,11 @@ input{
     margin-bottom: 10px;
     margin-left: 5px;
     color: brown;
-    float: right;
 }
 p{
     align-content: center;
 }
 label{
-    font-size: 10px; 
+    font-size: 15px;
+    align-self: end;
 }
