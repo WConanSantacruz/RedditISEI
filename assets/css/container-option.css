@@ -12,6 +12,7 @@ input#edit {
     inline-size: -webkit-fill-available;
     block-size: 22px;
     color: #d1d1d1;
+    margin-right: 5%;
 }
 .edicion{
     margin-bottom: 2em;
