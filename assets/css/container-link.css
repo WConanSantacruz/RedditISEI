@@ -1,0 +1,50 @@
+.container-link{
+    background-color: #a0a0a0;
+    block-size: 100%;
+    align-items: center;
+}
+.container-text{
+    background-color: blanchedalmond;
+    justify-items: inherit;
+    block-size: 150px;
+    align-items: center;
+
+
+}
+.container-buttom{
+    display: flex;
+}
+.container-option{
+    background-color: blue;
+}
+input{
+    border-color: #d1d1d1;
+    border-radius: 12px  ;
+    block-size: 25px;
+}
+.text{
+    counter-increment: initial;
+    color: #d1d1d1;
+}
+.action{
+    margin-top: 10%;
+}
+.Cancelar{
+    border-color: aqua;
+    margin-left: 0%;
+    color: aqua;
+    margin-bottom: 10px;
+}
+.publicar{
+    border-color: brown;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: brown;
+    float: right;
+}
+p{
+    align-content: center;
+}
+label{
+    font-size: 10px; 
+}
