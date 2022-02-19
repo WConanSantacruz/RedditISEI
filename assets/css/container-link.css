@@ -48,11 +48,25 @@ input{
     block-size: auto;
 }
 .Cancelar{
+    float: right;
+    border-radius: inherit;
+    border-radius: 10px;
+    margin-right: 5%;
+    margin-top: -1%;
+    min-block-size: 45px;
+    inline-size: 150px;
     border-color: aqua;
     color: aqua;
     margin-bottom: 10px;
 }
 .publicar{
+    float: right;
+    border-radius: inherit;
+    border-radius: 10px;
+    margin-right: 5%;
+    margin-top: -1%;
+    min-block-size: 45px;
+    inline-size: 150px;
     border-color: brown;
     margin-bottom: 10px;
     margin-left: 5px;
