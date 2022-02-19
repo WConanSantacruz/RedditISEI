@@ -41,7 +41,8 @@ input{
 }
 .text{
     counter-increment: initial;
-    color: #d1d1d1;
+    color: #d1d1d1
+    inline-size: -webkit-fill-available;
 }
 .action{
     margin-top: 10%;
