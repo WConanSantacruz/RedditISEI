@@ -1,0 +1,28 @@
+.con{
+    box-shadow: 0px 0px 4px 1px rgb(68, 68, 68);
+    border-radius: 0.5rem;
+  }
+  .boton1{
+    border-radius: 4rem !important;
+    margin-left: 35%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+  .boton2{
+    border-radius: 4rem !important;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    color: white;
+    background-color: rgb(44, 147, 173);
+  }
+  .form-control{
+    background-color: rgb(236, 235, 235);
+    height: 100px !important;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    width: 96% !important;
+  }
+  .perfil{
+    height: 40px;
+    margin-right: 1%;
+  }
