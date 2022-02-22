@@ -1,0 +1,42 @@
+.grid{
+    display: grid;
+    grid-template-columns: 5% 90%;
+    gap: 2%;
+    padding: 1%;
+    height: 144px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+.imageProfile{
+    width: 45%;
+}
+
+.line{
+    border: 1px solid lightgray;
+    height: 75%;
+    width: 5%;
+    background: lightgray;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.icon{
+    width: 2.5%;
+}
+
+.img{
+    width: 100%;
+    text-align: center;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    justify-content: right;
+}
+
+.col-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}

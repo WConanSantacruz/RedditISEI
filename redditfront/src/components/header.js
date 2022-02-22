@@ -1,7 +1,7 @@
 import logo from '../assets/images/logo.png';
-import './App.css';
+import '../assets/css/index.css';
 
-function App() {
+function Index() {
   return (
     <div classname="header">
         <div classname="logo">
@@ -30,4 +30,4 @@ function App() {
   );
 }
 
-export default App;
+export default Index;
